@@ -1,6 +1,6 @@
 {
-  "versionCode": 1,
-  "versionName": "1.0",
-  "apkUrl": "https://github.com/chinmayraj28/nse-optionchain-updates/releases/download/v1/OptionChain-v1.apk",
-  "notes": "First release. Option chains + full EOD pack, pause, background reliability, self-update."
+  "versionCode": 2,
+  "versionName": "1.1",
+  "apkUrl": "https://github.com/chinmayraj28/nse-optionchain-updates/releases/download/v2/OptionChain-v2.apk",
+  "notes": "v1.1 — adds final-EOD index option-chain capture (5 indices)."
 }
