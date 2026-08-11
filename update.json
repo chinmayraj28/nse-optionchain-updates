@@ -1,6 +1,6 @@
 {
-  "versionCode": 3,
-  "versionName": "1.2",
-  "apkUrl": "https://github.com/chinmayraj28/nse-optionchain-updates/releases/download/v3/OptionChain-v3.apk",
-  "notes": "v1.2 — onboarding now introduces the EOD data pack."
+  "versionCode": 5,
+  "versionName": "1.4",
+  "apkUrl": "https://github.com/chinmayraj28/nse-optionchain-updates/releases/download/v5/OptionChain-v5.apk",
+  "notes": "v1.4 — Save to Google Drive as well as Downloads (optional, off by default). Faster EOD pack: reports download in parallel. New progress card with per-file detail, and notifications when a run finishes."
 }
