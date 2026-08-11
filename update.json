@@ -1,6 +1,6 @@
 {
-  "versionCode": 5,
-  "versionName": "1.4",
-  "apkUrl": "https://github.com/chinmayraj28/nse-optionchain-updates/releases/download/v5/OptionChain-v5.apk",
-  "notes": "v1.4 — Save to Google Drive as well as Downloads (optional, off by default). Faster EOD pack: reports download in parallel. New progress card with per-file detail, and notifications when a run finishes."
+  "versionCode": 6,
+  "versionName": "2.0",
+  "apkUrl": "https://github.com/chinmayraj28/nse-optionchain-updates/releases/download/v6/OptionChain-v6.apk",
+  "notes": "v2.0 — Full redesign. New four-tab layout (Today / Runs / Files / Settings), run history with per-task status, a file and EOD archive browser, live index quotes in the header, and a reorganised Settings screen."
 }
