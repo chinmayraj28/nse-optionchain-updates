@@ -8,21 +8,43 @@ Everything saves as plain CSV files on your phone, so your data is yours and you
   <img src="screenshots/home.png" width="300" alt="Home screen" />
 </p>
 
+**Latest version: 2.0** — [download the APK](../../releases/latest)
+
 ## What it does
 
 **Live option chains.** Watch NIFTY, BANKNIFTY, FINNIFTY, MIDCPNIFTY and NIFTYNXT50 straight from your phone. You choose the strikes, the expiries and the columns you care about, and the app can refresh on its own during market hours.
 
 **Daily history pack.** Once a day after the market closes, around 6:30pm IST, the app downloads the official end of day files and stores them as CSVs. This is the part that turns a live viewer into a research tool. Only the final settled numbers go into history. Live intraday snapshots stay live and never mix into the sample.
 
-## Screenshots
+## Setup, once
 
-| Welcome | Pick indices | Daily history |
-| :---: | :---: | :---: |
-| <img src="screenshots/onboarding_welcome.png" width="230" /> | <img src="screenshots/onboarding_indices.png" width="230" /> | <img src="screenshots/onboarding_eod.png" width="230" /> |
+The app walks you through six short steps the first time you open it. Nothing here is permanent, all of it is changeable later in Settings.
 
-| All set | Home | EOD settings |
+| Your name | Pick your indices | Refresh schedule |
 | :---: | :---: | :---: |
-| <img src="screenshots/onboarding_finish.png" width="230" /> | <img src="screenshots/home.png" width="230" /> | <img src="screenshots/settings_eod.png" width="230" /> |
+| <img src="screenshots/onboarding_name.png" width="230" /> | <img src="screenshots/onboarding_indices.png" width="230" /> | <img src="screenshots/onboarding_schedule.png" width="230" /> |
+
+| Daily history | Copy to Drive | All set |
+| :---: | :---: | :---: |
+| <img src="screenshots/onboarding_eod.png" width="230" /> | <img src="screenshots/onboarding_drive.png" width="230" /> | <img src="screenshots/onboarding_finish.png" width="230" /> |
+
+## Using it day to day
+
+Four tabs. **Today** is the home screen with your countdown and watchlist, **Runs** is the history of everything the app has fetched, **Files** shows what is on disk, and **Settings** is where you change how it all behaves.
+
+| Today | Files | Settings |
+| :---: | :---: | :---: |
+| <img src="screenshots/home.png" width="230" /> | <img src="screenshots/files.png" width="230" /> | <img src="screenshots/settings_data.png" width="230" /> |
+
+| Schedule | System |
+| :---: | :---: |
+| <img src="screenshots/settings_schedule.png" width="230" /> | <img src="screenshots/settings_system.png" width="230" /> |
+
+**Today** shows a live countdown to the next pull, a one tap **Download all now**, a **Pause** switch, and every index on your watchlist with the time it was last saved. The header keeps a market open or closed pill so you always know where you stand.
+
+**Runs** keeps the record. Every automatic and manual run is listed with what it fetched and whether each file landed, so a missed download is never a mystery.
+
+**Files** shows how much space the data is using, which live CSVs are current, and your EOD archive grouped by date. **Open folder** drops you straight into the phone's file browser.
 
 ## The nine core datasets
 
@@ -48,7 +70,10 @@ You can turn the whole pack on or off with one switch, and pick exactly which of
 * Pick the columns you want to see, including OI, change in OI, volume, IV, LTP and bid or ask
 * Automatic refresh on a fixed interval, at set times, or only during market hours
 * Save any view to CSV in one tap
+* A full run history so you can see exactly what was fetched and when
+* An in app file browser for your live files and your dated EOD archive
 * The daily history pack runs by itself after close on trading days
+* Optional copy of every CSV to Google Drive, with the same folder layout
 * Smart date handling that walks back over weekends and holidays to find the last real trading day
 * Files land in tidy dated folders so nothing gets overwritten by accident
 * Built in updates, so new versions arrive without any store
@@ -57,9 +82,11 @@ You can turn the whole pack on or off with one switch, and pick exactly which of
 ## Where your files go
 
 ```
-Download/OptionChain/                 live option chain CSVs
-Download/OptionChain/EOD/<dataset>/   one dated CSV per dataset per day
+Download/OptionChain/                      live option chain CSVs
+Download/OptionChain/EOD/<date_time>/      one folder per daily pack run
 ```
+
+Turn on Google Drive in Settings and the same layout is mirrored to a folder there, so the files reach your laptop without a cable. Your phone always keeps its own copy either way.
 
 ## Install
 
@@ -70,6 +97,8 @@ This app is distributed on its own, outside any store.
 3. Open the app and follow the short setup.
 
 The app needs an Indian connection to reach the NSE data, so run it on a phone in India.
+
+If your phone is aggressive about closing background apps, set OptionChain to **Unrestricted** under battery settings. The System tab in the app tells you where to look.
 
 ## How updates work
 
